@@ -4,7 +4,10 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "exports": {
     ".": {
       "types": "./src/index.ts",
@@ -15,8 +18,8 @@
   "dependencies": {
     "@ysplitter/contracts": "workspace:*",
     "graphql": "*",
-    "graphql-request": "^6.0.0",
-    "graphql-tag": "^2.12.6",
+    "graphql-request": "6.0.0",
+    "graphql-tag": "2.12.6",
     "lodash": "*",
     "viem": "*"
   },
@@ -26,11 +29,11 @@
     "typescript": "*"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^5.0.0",
-    "@graphql-codegen/typescript": "^4.0.1",
-    "@graphql-codegen/typescript-graphql-request": "^5.0.0",
-    "@graphql-codegen/typescript-operations": "^4.0.1",
-    "merkletreejs": "^0.3.11",
+    "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/typescript": "4.0.1",
+    "@graphql-codegen/typescript-graphql-request": "5.0.0",
+    "@graphql-codegen/typescript-operations": "4.0.1",
+    "merkletreejs": "0.3.11",
     "msw": "*",
     "vite": "*",
     "vitest": "*"
